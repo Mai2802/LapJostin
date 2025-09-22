@@ -33,5 +33,18 @@
         "wires": [
             []
         ]
+    },
+    {
+        "id": "378eb9b42b852cd9",
+        "type": "catch",
+        "z": "32701deec85c98ae",
+        "name": "",
+        "scope": null,
+        "uncaught": false,
+        "x": 300,
+        "y": 240,
+        "wires": [
+            []
+        ]
     }
 ]
