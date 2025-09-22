@@ -37,21 +37,6 @@
         ]
     },
     {
-        "id": "378eb9b42b852cd9",
-        "type": "catch",
-        "z": "32701deec85c98ae",
-        "name": "",
-        "scope": null,
-        "uncaught": false,
-        "x": 260,
-        "y": 180,
-        "wires": [
-            [
-                "0233409faaa52460"
-            ]
-        ]
-    },
-    {
         "id": "0233409faaa52460",
         "type": "debug",
         "z": "32701deec85c98ae",
@@ -66,20 +51,5 @@
         "x": 380,
         "y": 100,
         "wires": []
-    },
-    {
-        "id": "411e2c25a29a871b",
-        "type": "complete",
-        "z": "32701deec85c98ae",
-        "name": "",
-        "scope": [],
-        "uncaught": false,
-        "x": 430,
-        "y": 220,
-        "wires": [
-            [
-                "0233409faaa52460"
-            ]
-        ]
     }
 ]
