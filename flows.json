@@ -28,8 +28,8 @@
         "topic": "",
         "payload": "",
         "payloadType": "date",
-        "x": 200,
-        "y": 160,
+        "x": 160,
+        "y": 100,
         "wires": [
             [
                 "0233409faaa52460"
@@ -43,8 +43,8 @@
         "name": "",
         "scope": null,
         "uncaught": false,
-        "x": 300,
-        "y": 240,
+        "x": 260,
+        "y": 180,
         "wires": [
             [
                 "0233409faaa52460"
@@ -63,8 +63,8 @@
         "complete": "false",
         "statusVal": "",
         "statusType": "auto",
-        "x": 420,
-        "y": 160,
+        "x": 380,
+        "y": 100,
         "wires": []
     }
 ]
