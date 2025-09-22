@@ -78,10 +78,10 @@
         "crontab": "",
         "once": false,
         "onceDelay": 0.1,
-        "topic": "",
+        "topic": "hola",
         "payload": "",
         "payloadType": "date",
-        "x": 160,
+        "x": 180,
         "y": 80,
         "wires": [
             [
