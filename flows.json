@@ -46,7 +46,9 @@
         "x": 300,
         "y": 240,
         "wires": [
-            []
+            [
+                "0233409faaa52460"
+            ]
         ]
     },
     {
@@ -61,8 +63,8 @@
         "complete": "false",
         "statusVal": "",
         "statusType": "auto",
-        "x": 390,
-        "y": 240,
+        "x": 420,
+        "y": 160,
         "wires": []
     }
 ]
