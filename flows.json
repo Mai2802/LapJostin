@@ -8,7 +8,7 @@
         "env": []
     },
     {
-        "id": "87013063e669b54b",
+        "id": "fa2a7f2fe4b20ea6",
         "type": "inject",
         "z": "0d15b0a9bcb4560b",
         "name": "",
@@ -28,28 +28,53 @@
         "topic": "",
         "payload": "",
         "payloadType": "date",
-        "x": 160,
-        "y": 60,
+        "x": 220,
+        "y": 120,
         "wires": [
             [
-                "43f31b6abe07be08"
+                "35c13e953a54724e"
             ]
         ]
     },
     {
-        "id": "43f31b6abe07be08",
+        "id": "35c13e953a54724e",
+        "type": "http request",
+        "z": "0d15b0a9bcb4560b",
+        "name": "",
+        "method": "GET",
+        "ret": "txt",
+        "paytoqs": "ignore",
+        "url": "",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": false,
+        "headers": [],
+        "x": 390,
+        "y": 120,
+        "wires": [
+            [
+                "3568eae88dbe5cc4"
+            ]
+        ]
+    },
+    {
+        "id": "3568eae88dbe5cc4",
         "type": "debug",
         "z": "0d15b0a9bcb4560b",
         "name": "debug 1",
-        "active": true,
+        "active": false,
         "tosidebar": true,
         "console": false,
         "tostatus": false,
-        "complete": "false",
+        "complete": "true",
+        "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 180,
-        "y": 160,
+        "x": 580,
+        "y": 120,
         "wires": []
     }
 ]
