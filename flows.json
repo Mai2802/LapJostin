@@ -40,7 +40,8 @@
         "y": 120,
         "wires": [
             [
-                "f1ca40c7ea8b7192"
+                "f1ca40c7ea8b7192",
+                "b798321336f92c71"
             ]
         ]
     },
@@ -49,7 +50,7 @@
         "type": "debug",
         "z": "32701deec85c98ae",
         "name": "debug 1",
-        "active": true,
+        "active": false,
         "tosidebar": true,
         "console": false,
         "tostatus": false,
@@ -59,6 +60,24 @@
         "x": 340,
         "y": 120,
         "wires": []
+    },
+    {
+        "id": "b798321336f92c71",
+        "type": "function",
+        "z": "32701deec85c98ae",
+        "name": "function 1",
+        "func": "require\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 260,
+        "y": 280,
+        "wires": [
+            []
+        ]
     },
     {
         "id": "0c1c8c60797d197e",
