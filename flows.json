@@ -1,6 +1,6 @@
 [
     {
-        "id": "32701deec85c98ae",
+        "id": "0d15b0a9bcb4560b",
         "type": "tab",
         "label": "Flow 1",
         "disabled": false,
@@ -8,17 +8,9 @@
         "env": []
     },
     {
-        "id": "227f2148934e2784",
-        "type": "tab",
-        "label": "Flow 2",
-        "disabled": false,
-        "info": "",
-        "env": []
-    },
-    {
-        "id": "f5d80a8515a09498",
+        "id": "87013063e669b54b",
         "type": "inject",
-        "z": "32701deec85c98ae",
+        "z": "0d15b0a9bcb4560b",
         "name": "",
         "props": [
             {
@@ -33,115 +25,31 @@
         "crontab": "",
         "once": false,
         "onceDelay": 0.1,
-        "topic": "holii",
+        "topic": "",
         "payload": "",
         "payloadType": "date",
-        "x": 160,
+        "x": 140,
         "y": 120,
         "wires": [
             [
-                "f1ca40c7ea8b7192",
-                "b798321336f92c71"
+                "43f31b6abe07be08"
             ]
         ]
     },
     {
-        "id": "f1ca40c7ea8b7192",
+        "id": "43f31b6abe07be08",
         "type": "debug",
-        "z": "32701deec85c98ae",
+        "z": "0d15b0a9bcb4560b",
         "name": "debug 1",
-        "active": false,
+        "active": true,
         "tosidebar": true,
         "console": false,
         "tostatus": false,
         "complete": "false",
         "statusVal": "",
         "statusType": "auto",
-        "x": 340,
+        "x": 360,
         "y": 120,
         "wires": []
-    },
-    {
-        "id": "b798321336f92c71",
-        "type": "function",
-        "z": "32701deec85c98ae",
-        "name": "function 1",
-        "func": "require\nreturn msg;",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 260,
-        "y": 280,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "0c1c8c60797d197e",
-        "type": "inject",
-        "z": "227f2148934e2784",
-        "name": "",
-        "props": [
-            {
-                "p": "payload"
-            },
-            {
-                "p": "topic",
-                "vt": "str"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "hola",
-        "payload": "",
-        "payloadType": "date",
-        "x": 280,
-        "y": 180,
-        "wires": [
-            [
-                "5016f59d1895fd0f"
-            ]
-        ]
-    },
-    {
-        "id": "5016f59d1895fd0f",
-        "type": "debug",
-        "z": "227f2148934e2784",
-        "name": "debug 2",
-        "active": false,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "false",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 500,
-        "y": 280,
-        "wires": []
-    },
-    {
-        "id": "6c6743f8137203a5",
-        "type": "rbe",
-        "z": "227f2148934e2784",
-        "name": "",
-        "func": "rbe",
-        "gap": "",
-        "start": "",
-        "inout": "out",
-        "septopics": true,
-        "property": "payload",
-        "topi": "topic",
-        "x": 210,
-        "y": 340,
-        "wires": [
-            [
-                "5016f59d1895fd0f"
-            ]
-        ]
     }
 ]
