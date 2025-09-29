@@ -113,7 +113,7 @@
         "type": "debug",
         "z": "227f2148934e2784",
         "name": "debug 2",
-        "active": true,
+        "active": false,
         "tosidebar": true,
         "console": false,
         "tostatus": false,
@@ -123,5 +123,25 @@
         "x": 460,
         "y": 180,
         "wires": []
+    },
+    {
+        "id": "6c6743f8137203a5",
+        "type": "rbe",
+        "z": "227f2148934e2784",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 210,
+        "y": 340,
+        "wires": [
+            [
+                "5016f59d1895fd0f"
+            ]
+        ]
     }
 ]
