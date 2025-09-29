@@ -36,8 +36,8 @@
         "topic": "hola",
         "payload": "",
         "payloadType": "date",
-        "x": 180,
-        "y": 100,
+        "x": 200,
+        "y": 80,
         "wires": [
             [
                 "0233409faaa52460"
@@ -57,8 +57,8 @@
         "targetType": "msg",
         "statusVal": "",
         "statusType": "auto",
-        "x": 380,
-        "y": 100,
+        "x": 340,
+        "y": 160,
         "wires": []
     },
     {
