@@ -28,8 +28,8 @@
         "topic": "",
         "payload": "",
         "payloadType": "date",
-        "x": 460,
-        "y": 120,
+        "x": 340,
+        "y": 140,
         "wires": [
             [
                 "35c13e953a54724e"
@@ -52,8 +52,8 @@
         "authType": "",
         "senderr": false,
         "headers": [],
-        "x": 630,
-        "y": 120,
+        "x": 510,
+        "y": 140,
         "wires": [
             [
                 "3568eae88dbe5cc4"
@@ -73,8 +73,8 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 820,
-        "y": 120,
+        "x": 700,
+        "y": 140,
         "wires": []
     },
     {
@@ -87,8 +87,8 @@
         "upload": false,
         "skipBodyParsing": false,
         "swaggerDoc": "",
-        "x": 430,
-        "y": 240,
+        "x": 310,
+        "y": 260,
         "wires": [
             [
                 "1e3ccebb13b06004",
@@ -110,8 +110,8 @@
         "targetType": "msg",
         "statusVal": "",
         "statusType": "auto",
-        "x": 660,
-        "y": 340,
+        "x": 540,
+        "y": 360,
         "wires": []
     },
     {
@@ -121,8 +121,8 @@
         "name": "ok",
         "statusCode": "200",
         "headers": {},
-        "x": 790,
-        "y": 240,
+        "x": 670,
+        "y": 260,
         "wires": []
     },
     {
@@ -144,8 +144,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 420,
-        "y": 360,
+        "x": 300,
+        "y": 380,
         "wires": [
             []
         ]
