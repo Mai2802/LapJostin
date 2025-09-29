@@ -101,7 +101,7 @@
         "type": "debug",
         "z": "0d15b0a9bcb4560b",
         "name": "debug 2",
-        "active": true,
+        "active": false,
         "tosidebar": true,
         "console": false,
         "tostatus": false,
@@ -120,7 +120,7 @@
         "name": "ok",
         "statusCode": "200",
         "headers": {},
-        "x": 510,
+        "x": 550,
         "y": 240,
         "wires": []
     },
