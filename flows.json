@@ -28,8 +28,8 @@
         "topic": "",
         "payload": "",
         "payloadType": "date",
-        "x": 220,
-        "y": 120,
+        "x": 380,
+        "y": 100,
         "wires": [
             [
                 "35c13e953a54724e"
@@ -52,8 +52,8 @@
         "authType": "",
         "senderr": false,
         "headers": [],
-        "x": 390,
-        "y": 120,
+        "x": 550,
+        "y": 100,
         "wires": [
             [
                 "3568eae88dbe5cc4"
@@ -73,8 +73,8 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 580,
-        "y": 120,
+        "x": 740,
+        "y": 100,
         "wires": []
     },
     {
@@ -87,12 +87,13 @@
         "upload": false,
         "skipBodyParsing": false,
         "swaggerDoc": "",
-        "x": 190,
-        "y": 240,
+        "x": 350,
+        "y": 220,
         "wires": [
             [
                 "1e3ccebb13b06004",
-                "6052be9e5a130fa7"
+                "a22461e0a1081982",
+                "26d1087ea27b2932"
             ]
         ]
     },
@@ -109,8 +110,8 @@
         "targetType": "msg",
         "statusVal": "",
         "statusType": "auto",
-        "x": 300,
-        "y": 360,
+        "x": 580,
+        "y": 320,
         "wires": []
     },
     {
@@ -120,27 +121,33 @@
         "name": "ok",
         "statusCode": "200",
         "headers": {},
-        "x": 550,
-        "y": 240,
+        "x": 710,
+        "y": 220,
         "wires": []
     },
     {
-        "id": "6052be9e5a130fa7",
-        "type": "template",
+        "id": "26d1087ea27b2932",
+        "type": "change",
         "z": "0d15b0a9bcb4560b",
         "name": "",
-        "field": "payload",
-        "fieldType": "msg",
-        "format": "handlebars",
-        "syntax": "mustache",
-        "template": "This is the payload: {{payload}} !",
-        "output": "str",
-        "x": 380,
-        "y": 280,
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 340,
+        "y": 340,
         "wires": [
-            [
-                "a22461e0a1081982"
-            ]
+            []
         ]
     }
 ]
