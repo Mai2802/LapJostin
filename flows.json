@@ -16,7 +16,7 @@
         "env": []
     },
     {
-        "id": "0218091bc92d16db",
+        "id": "f5d80a8515a09498",
         "type": "inject",
         "z": "32701deec85c98ae",
         "name": "",
@@ -33,32 +33,31 @@
         "crontab": "",
         "once": false,
         "onceDelay": 0.1,
-        "topic": "hola",
+        "topic": "holii",
         "payload": "",
         "payloadType": "date",
-        "x": 200,
-        "y": 80,
+        "x": 160,
+        "y": 120,
         "wires": [
             [
-                "0233409faaa52460"
+                "f1ca40c7ea8b7192"
             ]
         ]
     },
     {
-        "id": "0233409faaa52460",
+        "id": "f1ca40c7ea8b7192",
         "type": "debug",
         "z": "32701deec85c98ae",
         "name": "debug 1",
-        "active": false,
+        "active": true,
         "tosidebar": true,
         "console": false,
         "tostatus": false,
-        "complete": "payload",
-        "targetType": "msg",
+        "complete": "false",
         "statusVal": "",
         "statusType": "auto",
         "x": 340,
-        "y": 160,
+        "y": 120,
         "wires": []
     },
     {
