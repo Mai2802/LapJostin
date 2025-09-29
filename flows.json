@@ -44,7 +44,7 @@
         "method": "GET",
         "ret": "txt",
         "paytoqs": "ignore",
-        "url": "",
+        "url": "http://www.example.com",
         "tls": "",
         "persist": false,
         "proxy": "",
