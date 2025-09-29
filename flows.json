@@ -76,5 +76,52 @@
         "x": 580,
         "y": 120,
         "wires": []
+    },
+    {
+        "id": "38d683084e49779c",
+        "type": "http in",
+        "z": "0d15b0a9bcb4560b",
+        "name": "",
+        "url": "/sensores/:tem/:hum",
+        "method": "get",
+        "upload": false,
+        "skipBodyParsing": false,
+        "swaggerDoc": "",
+        "x": 190,
+        "y": 240,
+        "wires": [
+            [
+                "1e3ccebb13b06004",
+                "a22461e0a1081982"
+            ]
+        ]
+    },
+    {
+        "id": "1e3ccebb13b06004",
+        "type": "debug",
+        "z": "0d15b0a9bcb4560b",
+        "name": "debug 2",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 300,
+        "y": 360,
+        "wires": []
+    },
+    {
+        "id": "a22461e0a1081982",
+        "type": "http response",
+        "z": "0d15b0a9bcb4560b",
+        "name": "ok",
+        "statusCode": "200",
+        "headers": {},
+        "x": 510,
+        "y": 240,
+        "wires": []
     }
 ]
