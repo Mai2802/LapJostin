@@ -92,7 +92,7 @@
         "wires": [
             [
                 "1e3ccebb13b06004",
-                "a22461e0a1081982"
+                "6052be9e5a130fa7"
             ]
         ]
     },
@@ -123,5 +123,24 @@
         "x": 510,
         "y": 240,
         "wires": []
+    },
+    {
+        "id": "6052be9e5a130fa7",
+        "type": "template",
+        "z": "0d15b0a9bcb4560b",
+        "name": "",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "This is the payload: {{payload}} !",
+        "output": "str",
+        "x": 380,
+        "y": 280,
+        "wires": [
+            [
+                "a22461e0a1081982"
+            ]
+        ]
     }
 ]
